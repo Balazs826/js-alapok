@@ -1,1 +1,2 @@
-console.log("Sikeres összekötés ✅")
+console.log("Sikeres összekötés ✅");
+
