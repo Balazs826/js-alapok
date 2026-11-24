@@ -1,3 +1,5 @@
+"use strict";
+
 console.log("Sikeres összekötés ✅");
 
 // // const Surname = "Dávid"
@@ -217,10 +219,33 @@ console.log("Sikeres összekötés ✅");
 //         console.log("Érvénytelen nap")
 // }
 
-const age = 23;
+// const age = 23;
 
-age >= 18 ? console.log("Nagykorú vagy") : console.log("Kiskorú vagy");
+// age >= 18 ? console.log("Nagykorú vagy") : console.log("Kiskorú vagy");
 
-const drink = age >= 18 ? "Sört ihatsz" : "kólát ihatsz";
+// const drink = age >= 18 ? "Sört ihatsz" : "kólát ihatsz";
 
-console.log(drink);
+// console.log(drink);
+
+// let driverslicense = false;
+// const passtest = true;
+
+// if (passtest) {
+//     driverslicense = true;
+// }
+
+// if (driverslicense) {
+//     console.log("Vezethetek ✅");
+// }
+
+
+// const private = 23;
+
+// function logger() {
+//     console.log("A nevem talabér");
+// }
+
+// logger();
+// logger();
+// logger();
+
