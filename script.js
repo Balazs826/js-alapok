@@ -249,3 +249,25 @@ console.log("Sikeres összekötés ✅");
 // logger();
 // logger();
 
+// function fruitProcessor(apples, oranges) {
+//     // console.log(apples, oranges);
+//     const juice = `Gyümölcslé ${apples} darab almából és ${oranges} darab narancsából`;
+//     return juice;
+// }
+
+// fruitProcessor(5,0);
+// const appleJuice = fruitProcessor(5, 0);
+// console.log(appleJuice);
+
+
+// const appleOrangeJuice = fruitProcessor(2, 4);
+// console.log(appleOrangeJuice);
+
+
+function calcAge1(birthYear) {
+    const age = 2026 - birthYear;
+    return age;
+    
+}
+const age1 = calcAge1(2009);
+console.log(age1);
