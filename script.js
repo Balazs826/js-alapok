@@ -264,10 +264,44 @@ console.log("Sikeres összekötés ✅");
 // console.log(appleOrangeJuice);
 
 
-function calcAge1(birthYear) {
-    const age = 2026 - birthYear;
-    return age;
+// function calcAge1(birthYear) {
+//     const age = 2026 - birthYear;
+//     return age;
     
-}
-const age1 = calcAge1(2009);
-console.log(age1);
+// }
+// const age1 = calcAge1(2009);
+// console.log(age1);
+
+// const calcAge2 = function (birthYear) {
+//     return 2026 - birthYear;
+// }
+
+// const age2 = calcAge2(2009);
+// console.log(age2);
+
+
+// Nyílfüggvények
+
+// const calcAge3 = birthYear => 2026 - birthYear;
+
+// const age3 = calcAge3(2009);
+// console.log(age3);
+
+
+// const yearsUntilRetirement = (birthYear) => {
+//         const age = 2026 - birthYear;
+//         const retirement = 65 - age;
+//         return `${retirement} `;
+//     }
+
+// console.log(yearsUntilRetirement(2009,'Talabér'));
+
+const yearsUntilRetirement = (birthYear, firstName) => {
+        const age = 2026 - birthYear;
+        const retirement = 65 - age;
+        return `${firstName} ${retirement} év múlva mehet nyugdíjba`;
+    }
+
+ console.log(yearsUntilRetirement(2009,'Talabér'));
+
+ 
