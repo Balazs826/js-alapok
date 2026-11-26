@@ -1,6 +1,6 @@
-"use strict";
+// "use strict";
 
-console.log("Sikeres összekötés ✅");
+// console.log("Sikeres összekötés ✅");
 
 // // const Surname = "Dávid"
 
@@ -296,12 +296,50 @@ console.log("Sikeres összekötés ✅");
 
 // console.log(yearsUntilRetirement(2009,'Talabér'));
 
-const yearsUntilRetirement = (birthYear, firstName) => {
-        const age = 2026 - birthYear;
-        const retirement = 65 - age;
-        return `${firstName} ${retirement} év múlva mehet nyugdíjba`;
-    }
+// const yearsUntilRetirement = (birthYear, firstName) => {
+//         const age = 2026 - birthYear;
+//         const retirement = 65 - age;
+//         return `${firstName} ${retirement} év múlva mehet nyugdíjba`;
+//     }
 
- console.log(yearsUntilRetirement(2009,'Talabér'));
+//  console.log(yearsUntilRetirement(2009,'Talabér'));
 
- 
+// function fruitCalculator (fruit) {
+//  return fruit * 4;    
+// }
+
+// function fruitProcessor (apples, oranges) {
+//     const applePieces = fruitCalculator(apples);
+//     const orangePieces = fruitCalculator(oranges);
+//     const juice = `Gyümölcslé ${applePieces} alma db-ból és ${orangePieces} narancs db-ból készült.`;
+//     return juice;
+// }
+
+// console.log(fruitProcessor(2, 3));
+
+// const calcage = function (birthYear) {
+//     return 2026 - birthYear;
+// }
+
+// const yearsUntilRetirement = (birthYear, firstName) => {
+//     const age = 2026 - birthYear;
+//     const retirement = 65 - age;
+//     return `${firstName} ${retirement} év múlva mehet nyugdíjba`;
+
+//     if (retirement > 0) {
+//         return `${firstName} ${retirement} év múlva mehet nyugdíjba`;
+//     } else {
+//         console.log( `${firstName} már elérte a nyugdíjkorhatárt!`);
+//         return -1;
+//     }
+// }
+// console.log(yearsUntilRetirement(1243, 'Talabér'));
+
+
+///////// Tömbök //////////////
+
+const friends = ["Talabér", "Olivér", "Dávid", "Levente","Teofil","Tanárúr"];
+console.log(friends);
+
+console.log(friends[3]);
+
