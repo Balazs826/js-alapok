@@ -399,3 +399,4 @@ if (friends.includes("Levente")) {
     console.log("Levente nem a barátok között van.");
 }
 
+console.log("Meleg pornó");
