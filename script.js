@@ -338,8 +338,50 @@
 
 ///////// Tömbök //////////////
 
-const friends = ["Talabér", "Olivér", "Dávid", "Levente","Teofil","Tanárúr"];
-console.log(friends);
+// const friends = ["Talabér", "Olivér", "Dávid", "Levente","Teofil","Tanárúr"];
+// console.log(friends);
 
-console.log(friends[3]);
+// console.log(friends [3] );
 
+// console.log(friends.length);
+
+
+// console.log(friends[friends.length - 1 ]);
+
+// friends [2] = "Mate";
+// console.log(friends);
+
+// const firstName = "Levente";
+// const levente = [firstName, "Császár" , 2009, "programozó", friends];
+
+// console.log(levente);
+// console.log(levente[levente.length-1].length);
+
+// const CalcAge = function (birthYear) {
+//     return 2026 - birthYear;
+// }
+
+// const years = [1987, 1967, 2009, 2020, 2011,2027];
+
+// console.log(CalcAge(years[years.length - 1]))
+
+
+const friends = ["Levente","Mate","Tanárúr"];
+// const newlength = friends.push("Dávid");
+
+// friends.push("Olivér");
+// console.log(friends);
+// console.log(newlength);
+
+// // friends.unshift("Szebasztian");
+
+// const unshiftedLength = friends.unshift("Szebasztian");
+
+// console.log(unshiftedLength);
+
+// const popped = friends.pop();
+// console.log(popped);
+
+const shifted = friends.shift();
+
+console.log(shifted);
