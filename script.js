@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 
 // console.log("Sikeres összekötés ✅");
 
@@ -382,6 +382,20 @@ const friends = ["Levente","Mate","Tanárúr"];
 // const popped = friends.pop();
 // console.log(popped);
 
-const shifted = friends.shift();
+// const shifted = friends.shift();
 
-console.log(shifted);
+// console.log(shifted);
+
+console.log(friends.indexOf("Levente"));
+console.log(friends.indexOf("Oliver"));
+
+console.log(friends.includes("Levente"));
+console.log(friends.includes("Oliver"));
+
+if (friends.includes("Levente")) {
+    console.log("Levente a barátok között van.");
+    console.log(friends.indexOf("Levente"));
+} else {
+    console.log("Levente nem a barátok között van.");
+}
+
